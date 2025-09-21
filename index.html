@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS + JavaScript Animation Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>CSS3 + JavaScript Animation Demo</h1>
+  </header>
+
+  <!-- Part 1: CSS Animations -->
+  <section>
+    <h2>CSS Transitions & Animations</h2>
+    <button class="fancy-btn">Hover Me!</button>
+    <div class="animated-box"></div>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>JavaScript Functions Demo</h2>
+    <p>Enter two numbers to calculate:</p>
+    <input type="number" id="num1" placeholder="First number">
+    <input type="number" id="num2" placeholder="Second number">
+    <button id="calcBtn">Calculate Sum</button>
+    <p id="result"></p>
+  </section>
+
+  <!-- Part 3: Combining CSS + JS -->
+  <section>
+    <h2>Interactive Animations with JavaScript</h2>
+    <button id="animateBtn">Animate the Box</button>
+    <button id="modalBtn">Open Modal</button>
+
+    <div id="box"></div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <h3>I'm a Modal!</h3>
+        <p>This modal fades and slides in/out using CSS + JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
